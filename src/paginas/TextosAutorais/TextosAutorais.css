@@ -1,0 +1,73 @@
+.textos-markdown-container h3,
+.textos-markdown-container h4,
+.textos-markdown-container h5,
+.textos-markdown-container h6 {
+    font-family: var(--fonte-secundaria);
+}
+
+.textos-markdown-container h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.textos-markdown-container h4 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.textos-markdown-container p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.textos-markdown-container a {
+    color: #0493d4;
+    text-decoration: underline;
+}
+
+.textos-markdown-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.textos-markdown-container ul {
+    font-size: 1.5rem;
+}
+
+.textos-markdown-container ul > li {
+    margin-bottom: 1rem;
+    list-style: disc;
+}
+
+.textos-markdown-container pre,
+.textos-markdown-container blockquote {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.textos-markdown-container pre {
+    overflow-x: auto;
+}
+
+@media (max-width: 1100px) {
+    .textos-markdown-container p {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 744px) {
+    .textos-markdown-container h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .textos-markdown-container p {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
