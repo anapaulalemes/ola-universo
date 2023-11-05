@@ -1,0 +1,34 @@
+.titulo {
+    font-family: var(--fonte-secundaria);
+    padding: 0 7.5rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.textosConteudoContainer {
+    padding: 2.5rem 7.5rem 4.5rem;
+}
+
+@media (max-width: 744px) {
+    .textosConteudoContainer {
+        padding: 2rem 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 744px) {
+
+    .fotoCapa,
+    .titulo {
+        height: 104px;
+    }
+
+    .titulo {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .textosConteudoContainer {
+        padding: 2rem 1rem 1.5rem;
+    }
+}
